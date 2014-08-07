@@ -1,8 +1,9 @@
 ---
 layout: index
+title: Bram’s GitHub Page
 ---
 
-# Bram’s GitHub Page
+# Recipes
  
 * Rice Pudding with Baked Pear
 * Hot Chocolate
