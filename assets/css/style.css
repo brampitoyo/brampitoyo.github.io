@@ -1,0 +1,72 @@
+/* General Body Styles */
+body {
+    background-color: #fff;
+    color: #232323;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Fallback for Arial Grotesk */
+    font-size: 1.8rem; /* Approx --step-0 based on analysis */
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Container for content */
+.content-container {
+    max-width: 80rem; /* Simplified container width */
+    margin: 4rem auto; /* Generous vertical and centered horizontal margins */
+    padding: 0 2.4rem;
+}
+
+/* Headings */
+h1 {
+    font-size: 4.2rem; /* Approx --step-1 */
+    line-height: 1.2;
+    font-weight: 400;
+    color: #232323;
+    margin-bottom: 3rem;
+    border-bottom: .2rem solid #232323; /* Characteristic underline */
+    display: inline-block; /* To make border only as wide as text */
+    padding-bottom: 0.5rem;
+}
+
+/* Recipe List Styling */
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    font-size: 2rem; /* Slightly larger for list items */
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: .1rem solid #e0e0e0; /* Softer separator for list items */
+    line-height: 1.4;
+}
+
+/* If we want list items to have the interactive underline style:
+li a, /* Assuming recipes become links */
+/* li { /* If list items themselves should look interactive */
+/*    border-bottom: .2rem solid #232323;
+    text-decoration: none;
+    color: #232323;
+    cursor: default; /* or pointer if they become links */
+/* }
+
+/* li a:hover, */
+/* li:hover {
+/*    border-color: transparent;
+/*    color: #898989; /* Lighter color on hover, similar to team.design */
+/* }
+*/
+
+/* Utility for screen readers */
+.sr-only {
+    clip: rect(1px,1px,1px,1px);
+    border: 0!important;
+    height: 1px!important;
+    overflow: hidden;
+    padding: 0!important;
+    position: absolute!important;
+    width: 1px!important;
+}
